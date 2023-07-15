@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Img and Search</title>
+    <style>
+        .a {
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .b {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            border-color: red;
+            border-width: 12px;
+        }
+
+        .c {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            object-fit: cover;
+            margin-left: 25px;
+        }
+
+        .e {
+            width: 300px;
+            border-radius: 10px;
+            border: none;
+            background-color: aliceblue;
+            transition: box-shadow 0.2s;
+            padding-top: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            font-size: 15px;
+        }
+
+        .e:hover {
+            box-shadow: 5px 5px 8px #888888;
+        }
+
+        .e:focus {
+            outline: none;
+        }
+
+        .g {
+            width: 300px;
+            font-size: 12px;
+        }
+
+        .g:focus {
+            outline: none;
+        }
+
+        .info-p {
+            font-size: 12px;
+            font-style: italic;
+        }
+
+        .confirm-button {
+            background-color: aqua;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: none;
+            cursor: pointer;
+            width: 300px;
+            display: block;
+            margin-bottom: 25px;
+            overflow: hidden;
+        }
+
+        .f {
+            vertical-align: top;
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            /*Here you set how many columns will be and how much of the space they will take, for example there are 3 values, meaning 3 columns, the first and the last one will take 1 space of the row, and the second one will take 4 spaces*/
+            align-items: center;
+            grid-gap: 0em; /*The gap between items*/
+        }
+
+        .f-image {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 25px;
+        }
+
+        .f-input {
+            border: none;
+            width: 300px;
+            padding: 8px;
+            border-radius: 50px;
+            background-color: #1c1616;
+            color: green;
+        }
+
+        .f-input:focus {
+            outline: none;
+        }
+
+        .tweet {
+            background-color: aqua;
+            width: 70px;
+            border: none;
+            border-radius: 50px;
+            padding: 6px;
+            transition: box-shadow 0.2s;
+        }
+        .tweet:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 12px black;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="a" src="..\Youtube-Clone\thumbnails\kedar.jpg" alt="Image-1">
+    <img class="b" src="..\Youtube-Clone\thumbnails\kedar.jpg" alt="Image-2">
+    <img class="c" src="..\Youtube-Clone\thumbnails\kedar.jpg" alt="Image-3">
+    <input class="d" placeholder="Search" type="text">
+    <input class="e" placeholder="Search Google or type a URL" type="text">
+    <p style="margin-top: 20px;">Email</p>
+    <input class="g" placeholder="Email" type="text">
+    <p class="info-p">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="confirm-button">Agree and Continue</button>
+    <p class="f">
+        <img class="f-image" src="..\Youtube-Clone\thumbnails\kedar.jpg" alt="Image-4">
+        <input class="f-input" placeholder="What's happening ?" type="input">
+        <button class="tweet">Tweet</button>
+    </p>
+</body>
+
+</html>

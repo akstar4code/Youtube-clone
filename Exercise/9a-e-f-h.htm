@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <style>
+        .ex-9a {
+            border: none;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-right: 12px;
+        }
+
+        .ex-9b {
+            border: none;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .ex-9c {
+            width: 300px;
+            border: solid;
+            border-width: 1px;
+            padding: 5px;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .yes-btn:hover,
+        .no-btn:hover {
+            cursor: pointer;
+        }
+
+        .ex-9d {
+            background-color: rgb(42, 39, 39);
+            width: 300px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: white;
+        }
+        .main-text{
+            font-size: 25px;
+            padding-top: 10px;
+        }
+        .sub-text{
+            padding-bottom: 10px;
+            color: rgb(111, 112, 113);
+        }
+
+        .ex-9e {
+            box-shadow: 1px 1px 2px 0.5px rgb(123,16,17);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 500px;
+            border-width: 28px;
+        }
+
+        .f-image {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            vertical-align: middle;
+            border-radius: 25px;
+            margin-right: 5px;
+        }
+
+        .f-input {
+            border: solid;
+            border-width: 0.5px;
+            border-color: aqua;
+            font-size: 18px;
+            width: 300px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 50px;
+            vertical-align: middle;
+        }
+
+        .f-input:focus {
+            outline: none;
+        }
+        .tweet {
+            background-color: rgb(29, 155, 240);
+            width: 70px;
+            border: none;
+            border-radius: 50px;
+            padding: 6px;
+            transition: box-shadow 0.2s;
+            color: white;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        .tweet:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 12px black;
+        }
+        .ex-9f {
+            margin-top: 25px;
+            display: inline-block;
+            box-shadow: 1px 1px 6px 0.5px rgb(61, 56, 56);
+            margin-right: 10px;
+        }
+        .fb-dp{
+            width: 150px;
+            height: 150px;
+            display: block;
+            object-fit: cover;
+            object-position: left;
+            margin-bottom: 5px;
+        }
+        .user-name {
+            margin-left: 5px;
+        }
+        .mutual-friends{
+            font-size: 12px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            color: rgb(57, 51, 51);
+            margin-left: 5px;
+        }
+        .add-btn {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: white;
+            background-color: rgb(47, 130, 224);
+            border: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 5px;
+        }
+        .add-btn:hover{
+            cursor: pointer;
+        }
+        .ex-9h {
+            text-align: center;
+            width: 400px;
+            padding: 10px;
+        }
+        .google-icon{
+            width: 300px;
+            display: block;
+            margin-left: 100px;
+        }
+        .search-in-google{
+            border-radius: 25px;
+            padding: 10px;
+            border: none;
+            width: 400px;
+            box-shadow: 0.5px 0.5px 5px rgba(26, 27, 28,0.2);
+            display: block;
+            margin-bottom: 30px;
+            margin-top: 2px;
+        }
+        .search-in-google:focus {
+            outline:none;
+            box-shadow: 0.5px 0.5px 5px rgba(26, 27, 28,0.5);
+        }
+        .google-search-btn,
+        .lucky-btn{
+            background-color: rgb(233, 237, 239);
+            border: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-right: 25px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ex-9a"></div>
+    <div class="ex-9b"></div>
+    <div class="ex-9c">
+        <p>Satisfied with our services ?</p>
+        <button class="yes-btn">Yes</button>
+        <button class="no-btn">No</button>
+    </div>
+    <div class="ex-9d">
+        <p class="main-text">Install YouTube Music</p>
+        <p class="sub-text">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+    <div class="ex-9e">
+        <p class="f">
+            <img class="f-image" src="..\Youtube-Clone\thumbnails\kedar.jpg" alt="Image-4">
+            <input class="f-input" placeholder="What's happening ?" type="input">
+            <button class="tweet">Tweet</button>
+        </p>
+    </div>
+    <div class="ex-9f">
+        <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail3.jpg">
+        <strong class="user-name">Oliver</strong>
+        <p class="mutual-friends">5 Mutual Friends</p>
+        <button class="add-btn">Add Friend</button>
+    </div>
+    <div class="ex-9f">
+        <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail4.jpg">
+        <strong class="user-name">Bhojpuri Babua</strong>
+        <p class="mutual-friends">5 Mutual Friends</p>
+        <button class="add-btn">Add Friend</button>
+    </div>
+    <div class="ex-9f">
+        <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail5.webp">
+        <strong class="user-name">kirya</strong>
+        <p class="mutual-friends">5 Mutual Friends</p>
+        <button class="add-btn">Add Friend</button>
+    </div>
+    <div class="ex-9f">
+        <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail6.webp">
+        <strong class="user-name">hosana</strong>
+        <p class="mutual-friends">5 Mutual Friends</p>
+        <button class="add-btn">Add Friend</button>
+    </div>
+    <div class="ex-9h">
+        <img class="google-icon" src="..\Youtube-Clone\thumbnails\Google.jpg">
+        <input type="text" class="search-in-google" placeholder="Search Google or type a URL">
+        <button class="google-search-btn">Google Search</button>
+        <button class="lucky-btn">I'm Feeling Lucky</button>
+    </div>
+
+    
+</body>
+
+</html>

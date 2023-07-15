@@ -1,0 +1,76 @@
+p{
+    margin: 0;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-info{
+    width: 200px;
+}
+.dp-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.follow-btn{
+    color: aliceblue;
+    background-color: rgb(58, 24, 212);
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.body{
+    margin-bottom: 1000px;
+}
+.container{
+    background-color: rgb(196, 17, 236);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+.home-menu{
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    font-size: 20PX;
+}
+.search-input{
+    flex: 1;
+    max-width: 500px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+    font-size: 15px;
+    margin-right: 25px;
+}
+.download-btn{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: transparent;
+}

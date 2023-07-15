@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Execrise</title>
+</head>
+
+<body>
+    <p class="font-check">This is Tahoma Font</p>
+    <p class="font-check2">Biggest Deals of the Year!<span class="end-date">Sales end Tuesday</span></p>
+    <p class="complete-execrise">
+        <span class="title">HTML CSS Course </span>
+        <span class="sub-describe">Beginner to Pro</span>
+        <span class="sub-info">In this Course, we'll learn the skills you need to become a developer</span>
+        <button class="get-started">Get Started</button>
+    </p>
+    <p class="this-is-business">
+        <span class="business-title">Shopping for your Business ?</span>
+        <span class="business-sub">See how Apple at work can help.</span>
+        <a class="business-info" href="#ashok">Learn more &#62;</a>
+    </p>
+    <style>
+        p {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .this-is-business {
+            margin-top: 12px;
+            text-align: center;
+            background-color: bisque;
+            width: 300px;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .business-sub {
+            display: block;
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        .business-info {
+            display: block;
+            font-size: 15px;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .font-check {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            color: white;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .font-check2 {
+            background-color: pink;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .end-date {
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+
+        .end-date::before {
+            content: "\a";
+            white-space: pre;
+        }
+
+        .complete-execrise {
+            background-color: antiquewhite;
+            color: black;
+            padding: 10px;
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        .title {
+            font-size: 25px;
+            font-weight: 40px;
+        }
+
+        .sub-describe {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: grey;
+        }
+        .get-started {
+            display: block;
+            background-color: green;
+            border-radius: 12px;
+            text-align: center;
+            padding: 8px;
+            color: white;
+            margin-top: 12px;
+            transition: background-color 0.2s;
+            border: none;
+        }
+
+        .get-started:hover {
+            cursor: pointer;
+            background-color: rgb(7, 155, 7);
+        }
+    </style>
+</body>
+
+</html>

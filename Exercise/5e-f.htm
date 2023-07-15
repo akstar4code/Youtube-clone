@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More-Execise</title>
+</head>
+<body>
+    <p class="mac-book">
+        <span class="blink-it">New</span>
+        <span class="mac-name">MacBook 14 Pro</span>
+        <span class="best-feature">Supercharged for pros</span>
+        <sapn class="mac-price">From $1999 <i style="font-size: 8px;">Stock Available</i></sapn>
+        <button class="buy-now">Buy</button>
+    </p>
+    <p class="stock-market" style="background-color: azure; width: 250px; padding: 10px;">
+        <span>1,049.61 USD</span>
+        <span style="color: green; display: block;">+18.05 (1.75%) today</span>
+        <span >After hours 1,048.00 <span style="color:red">-1.61(0.15%)</span></span>
+    </p>
+
+    <p class="ashok-web">
+        <strong>ashok.web</strong>
+        <span>@freeCodecCamp</span>
+        <i class="web-details">As a web developer, you'll want to make your projects easy to use and navigate around.</i>
+        <span>Here <a href="#ashok">@chp_it</a>outlines the top skills new developers should have.</span>
+    </p>
+
+    <style>
+        .mac-book {
+            background-color: rgb(231, 216, 216);
+            width: 350px;
+            padding: 8px;
+            font-family: 'Trebuchet MS';
+            text-align: center;
+        }
+        .blink-it {
+            font-size: 12px;
+            display: block;
+            color: red;
+            animation: animate 1.5s linear infinite;
+            font-weight: bold;
+        }
+        .mac-name {
+            font-size: 15px;
+            display: block;
+        }
+        .best-feature {
+            font-size: 35px;
+            display: block;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .mac-price{
+            display: block;
+            margin-top: 10px;
+        }
+        i {
+            animation: animate2 2s linear infinite;
+            color: green;
+        }
+        .web-details{
+            font-size: 23px;
+        }
+        .buy-now {
+            background-color: rgb(4, 215, 215);
+            border: none;
+            border-radius: 5px;
+            transition: background-color .2s;
+            margin-top: 10px;
+        }
+        .buy-now:hover {
+            cursor: pointer;
+            background-color:rgb(3, 139, 139);
+            color: white;
+        }
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @keyframes animate2 {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</body>
+</html>

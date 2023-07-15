@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <style>
+        .input-name,
+        .input-email{
+            display: block;
+            padding: 10px;
+            width: 200px;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+        .input-email:focus,
+        .input-name:focus {
+            outline: none;
+        }
+        .paragraph-text {
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .yes-button:hover,
+        .no-button:hover{
+            cursor: pointer;
+        }
+        .google-icon{
+            width: 300px;
+            display: block;
+            margin-left: 100px;
+        }
+        .search-in-google{
+            border-radius: 25px;
+            padding: 10px;
+            border: none;
+            width: 500px;
+            box-shadow: 0.5px 0.5px 5px rgba(26, 27, 28,0.2);
+            display: block;
+            margin-bottom: 30px;
+            margin-top: 2px;
+        }
+        .search-in-google:focus {
+            outline:none;
+            box-shadow: 0.5px 0.5px 5px rgba(26, 27, 28,0.5);
+        }
+        .first-name,
+        .last-name {
+            display: inline-block;
+            margin-top: 12px;
+            width: 200px;
+            margin-right: 20px;
+            border-radius: 5px;
+            border-width: 1px;
+            font-size: 20px;
+        }
+        .email {
+            margin-top: 12px;
+            margin-bottom: 25px;
+            display: block;
+            width: 430px;
+            border-radius: 5px;
+            border-width: 1px;
+            font-size: 20px;
+        }
+
+        .signup-button {
+            background-color: rgb(61, 61, 158);
+            color: white;
+            font-size: 45px;
+            border: none;
+            border-radius: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width: 430px;
+            vertical-align: middle;
+            margin-bottom: 25px;
+        }
+        .signup-button:hover {
+            cursor: pointer;
+        }
+
+        .title-ride {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        .pickup-location,
+        .destination-location{
+            font-size: 20px;
+            display: block;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border-width: 1px;
+            width: 400px;
+            background-color: rgb(230, 226, 226);
+        }
+        .request-button,
+        .schedule-for-later {
+            padding: 10px;
+            margin-top: 25px;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        .request-button {
+            color: white;
+            background-color: black;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" class="input-name" placeholder="Name">
+    <input type="email" class="input-email" placeholder="Email">
+
+    <p class="paragraph-text">Thanks for chatting with our customer support. Would you like to take our quick survey ?</p>
+    <button class="yes-button">Yes</button>
+    <button class="No-button">No</button>
+
+    <img class="google-icon" src="..\Youtube-Clone\thumbnails\Google.jpg">
+    <input type="text" class="search-in-google" placeholder="Search Google or type a URL">
+
+    <input class="first-name" placeholder="First Name" type="text">
+    <input class="last-name" placeholder="Last Name" type="text">
+    <input class="email" placeholder="Email" type="email">
+    <button class="signup-button">Sign Up</button>
+
+    <p class="title-ride">Request a ride now</p>
+    <input class="pickup-location" type="text" placeholder="Enter pickup location">
+    <input class="destination-location" type="text" placeholder="Enter Destination">
+    <button class="request-button">Request Now</button>
+    <button class="schedule-for-later">Schedule For Later</button>
+</body>
+</html>

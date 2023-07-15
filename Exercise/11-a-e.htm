@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Execrise</title>
+    <style>
+        .grid-box {
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .grid-box-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .grid-box-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .fb-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 600px;
+            column-gap: 20px;
+        }
+
+        .ex-9f {
+            margin-top: 25px;
+            box-shadow: 1px 1px 6px 0.5px rgb(61, 56, 56);
+            width: 150px;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .profile-details {
+            width: 100%;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .fb-dp {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+        }
+
+        .user-name {
+            margin-bottom: 5px;
+            font-weight: 1000;
+        }
+
+        .mutual-friends {
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: rgb(57, 51, 51);
+        }
+
+        .add-btn {
+            color: white;
+            background-color: rgb(47, 130, 224);
+            border: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .add-btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-box">
+        <div style="background-color: aquamarine;">200px</div>
+        <div style="background-color: blueviolet;">75px</div>
+    </div>
+    <div class="grid-box-2">
+        <div style="background-color: aquamarine;">col1</div>
+        <div style="background-color: blueviolet;">col2</div>
+        <div style="background-color: rgb(31, 231, 148);">col3</div>
+    </div>
+    <div class="grid-box-3">
+        <div style="background-color: aquamarine;">col1</div>
+        <div style="background-color: blueviolet;">col2</div>
+        <div style="background-color: rgb(31, 231, 148);">col3</div>
+        <div style="background-color: rgb(38, 61, 52);">col3</div>
+        <div style="background-color: rgb(38, 61, 52);">col3</div>
+        <div style="background-color: rgb(31, 231, 148);">col3</div>
+        <div style="background-color: blueviolet;">col2</div>
+        <div style="background-color: aquamarine;">col1</div>
+    </div>
+
+    <div class="fb-grid">
+        <div class="ex-9f">
+            <div class="profile-pic">
+                <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail3.jpg">
+            </div>
+            <div class="profile-details">
+                <p class="user-name">Oliver</p>
+                <p class="mutual-friends">5 Mutual Friends</p>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="ex-9f">
+            <div class="profile-pic">
+                <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail4.jpg">
+            </div>
+            <div class="profile-details">
+                <p class="user-name">Bhojpuri Babua</p>
+                <p class="mutual-friends">5 Mutual Friends</p>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="ex-9f">
+            <div class="profile-pic">
+                <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail5.webp">
+            </div>
+            <div class="profile-details">
+                <p class="user-name">Cartirna</p>
+                <p class="mutual-friends">5 Mutual Friends</p>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="ex-9f">
+            <div class="profile-pic">
+                <img class="fb-dp" src="../Youtube-Clone/thumbnails/thumbail6.webp">
+            </div>
+            <div class="profile-details">
+                <p class="user-name">Jack</p>
+                <p class="mutual-friends">5 Mutual Friends</p>
+                <button class="add-btn">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

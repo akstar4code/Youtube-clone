@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excerise-3</title>
+</head>
+
+<body>
+    <h1>4.1</h1>
+    <button class="back-button">Back</button>
+    <a href="#next">1</a>
+    <a href="#next">2</a>
+    <a href="#next">3</a>
+    <a href="#next">4</a>
+    <a href="#prev">5</a>
+    <button class="next-button">Next</button>
+    <h1>4.2</h1>
+    <button class="stretch-button">Stretch</button>
+    <h1>4.3</h1>
+    <button class="one-button">One</button>
+    <button class="two-button">Two</button>
+    <button class="three-button">Three</button>
+    <style>
+        .back-button {
+            padding: 8px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+
+        .next-button {
+            padding: 8px;
+            margin-left: 10px;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+
+        a {
+            margin: 8px;
+        }
+
+        .stretch-button {
+            background-color: rgb(25, 222, 25);
+            border: none;
+            padding: 10px;
+            border-radius: 2px;
+            transition: padding-top 1s, padding-bottom 1s,
+                padding-left 1s, padding-right 1s cursor 1s;
+        }
+
+        .stretch-button:hover {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+            cursor: pointer;
+        }
+
+        .one-button {
+            background-color: greenyellow;
+            border: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+            transition: padding-left 1s, padding-right 1s;
+        }
+
+        .two-button {
+            background-color: greenyellow;
+            border: none;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: padding-left 1s, padding-right 1s;
+        }
+
+        .three-button {
+            background-color: greenyellow;
+            border: none;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            transition: padding-left 1s, padding-right 1s;
+        }
+        .one-button:hover {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .two-button:hover{
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .three-button:hover{
+            padding-left: 28px;
+            padding-right: 28px;
+        }
+    </style>
+</body>
+
+</html>
